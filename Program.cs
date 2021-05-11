@@ -12,6 +12,7 @@ namespace RabbitMqSender
         {
 
             var bus = BusConfigurator.ConfigureBus();
+            // some trial and error
             //var bus = BusConfigurator.ConfigureBus((cfg) =>
             //{
             //    cfg.ReceiveEndpoint(RabbitMqConstants.RegisterEmailSenderQueue, e =>
